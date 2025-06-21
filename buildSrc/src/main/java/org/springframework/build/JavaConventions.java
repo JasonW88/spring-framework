@@ -57,7 +57,7 @@ public class JavaConventions {
 		List<String> commonCompilerArgs = List.of(
 				"-Xlint:serial", "-Xlint:cast", "-Xlint:classfile", "-Xlint:dep-ann",
 				"-Xlint:divzero", "-Xlint:empty", "-Xlint:finally", "-Xlint:overrides",
-				"-Xlint:path", "-Xlint:processing", "-Xlint:static", "-Xlint:try", "-Xlint:-options",
+				"-Xlint:path", "-Xlint:-processing", "-Xlint:static", "-Xlint:try", "-Xlint:-options",
 				"-parameters"
 		);
 		COMPILER_ARGS = new ArrayList<>();
