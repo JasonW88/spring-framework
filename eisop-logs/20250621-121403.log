@@ -1,0 +1,840 @@
+> Task :buildSrc:compileJava UP-TO-DATE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:checkstyleMain UP-TO-DATE
+> Task :buildSrc:compileTestJava UP-TO-DATE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:checkstyleTest UP-TO-DATE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:test UP-TO-DATE
+> Task :buildSrc:validatePlugins UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :framework-bom:clean UP-TO-DATE
+> Task :framework-api:clean UP-TO-DATE
+> Task :integration-tests:clean
+> Task :framework-platform:clean UP-TO-DATE
+> Task :spring-context-indexer:clean
+> Task :spring-aspects:clean
+> Task :spring-core-test:clean
+> Task :spring-expression:clean
+> Task :spring-beans:clean
+> Task :spring-messaging:clean
+> Task :spring-instrument:clean
+> Task :spring-aop:clean
+> Task :spring-jms:clean
+> Task :spring-r2dbc:clean
+> Task :spring-jdbc:clean
+> Task :spring-test:clean
+> Task :spring-orm:clean
+> Task :spring-oxm:clean
+> Task :spring-context-support:clean
+> Task :spring-webflux:clean
+> Task :spring-tx:clean
+> Task :spring-beans:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-aop:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-context:clean
+> Task :spring-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-expression:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-webmvc:clean
+> Task :spring-websocket:clean
+> Task :spring-web:clean
+> Task :spring-aspects:createCheckerFrameworkManifest
+> Task :spring-expression:createCheckerFrameworkManifest
+> Task :spring-beans:createCheckerFrameworkManifest
+> Task :spring-jdbc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-instrument:createCheckerFrameworkManifest
+> Task :spring-tx:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-aop:createCheckerFrameworkManifest
+> Task :spring-context:createCheckerFrameworkManifest
+> Task :spring-context-support:createCheckerFrameworkManifest
+> Task :spring-web:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :framework-docs:clean
+> Task :spring-orm:createCheckerFrameworkManifest
+> Task :spring-tx:createCheckerFrameworkManifest
+> Task :spring-jdbc:createCheckerFrameworkManifest
+> Task :spring-core:clean
+> Task :spring-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-oxm:createCheckerFrameworkManifest
+> Task :spring-web:createCheckerFrameworkManifest
+> Task :spring-aspects:processResources
+> Task :spring-context-indexer:createCheckerFrameworkManifest
+> Task :spring-core-test:createCheckerFrameworkManifest
+> Task :spring-core-test:processResources NO-SOURCE
+> Task :spring-expression:processResources NO-SOURCE
+> Task :spring-context-support:processResources
+> Task :spring-aop:processResources
+> Task :spring-messaging:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-jms:createCheckerFrameworkManifest
+> Task :spring-core:javapoetRepackJar FROM-CACHE
+> Task :spring-messaging:createCheckerFrameworkManifest
+> Task :spring-beans:processResources
+> Task :spring-messaging:processResources
+> Task :spring-r2dbc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-orm:processResources
+> Task :spring-test:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-webflux:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-jdbc:processResources
+> Task :spring-webmvc:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :spring-core:objenesisRepackJar FROM-CACHE
+> Task :spring-r2dbc:createCheckerFrameworkManifest
+> Task :spring-context:processResources
+> Task :spring-webflux:createCheckerFrameworkManifest
+> Task :spring-jms:processResources
+> Task :spring-websocket:createCheckerFrameworkManifest
+> Task :spring-r2dbc:processResources
+> Task :spring-test:createCheckerFrameworkManifest
+> Task :spring-oxm:xjc FROM-CACHE
+> Task :spring-webmvc:createCheckerFrameworkManifest
+> Task :spring-webflux:processResources
+> Task :spring-tx:processResources
+> Task :spring-test:processResources
+> Task :spring-web:processResources
+> Task :framework-bom:assemble UP-TO-DATE
+> Task :framework-platform:assemble UP-TO-DATE
+> Task :integration-tests:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :framework-docs:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :integration-tests:compileKotlin NO-SOURCE
+> Task :spring-oxm:processResources
+> Task :integration-tests:compileJava NO-SOURCE
+> Task :integration-tests:processResources NO-SOURCE
+> Task :integration-tests:classes UP-TO-DATE
+> Task :spring-websocket:processResources
+> Task :integration-tests:jar
+> Task :integration-tests:assemble
+> Task :spring-webmvc:processResources
+> Task :framework-docs:processResources
+> Task :spring-core:compileKotlin FROM-CACHE
+> Task :spring-core:createCheckerFrameworkManifest
+
+> Task :spring-instrument:compileJava
+Note: The Checker Framework is tested with JDK 8, 11, 17, and 21. You are using version 24.
+Note: Checker Framework 3.49.3-eisop1
+
+> Task :spring-instrument:processResources NO-SOURCE
+> Task :spring-instrument:classes
+> Task :spring-instrument:jar
+> Task :spring-instrument:assemble
+
+> Task :spring-context-indexer:compileJava
+Note: The Checker Framework is tested with JDK 8, 11, 17, and 21. You are using version 24.
+Note: Checker Framework 3.49.3-eisop1
+
+> Task :clean
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :assemble
+
+> Task :spring-core:compileJava
+Note: The Checker Framework is tested with JDK 8, 11, 17, and 21. You are using version 24.
+Note: Checker Framework 3.49.3-eisop1
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/CurrentFrame.java:52: error: [argument.type.incompatible] incompatible argument for parameter owner of Frame constructor.
+    Frame successor = new Frame(null);
+                                ^
+  found   : null (NullType)
+  required: @NonNull Label
+
+> Task :spring-context-indexer:compileJava FAILED
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/TypeHelper.java:52: error: [argument.type.incompatible] incompatible argument for parameter type of TypeHelper.getType.
+		return getType(element != null ? element.asType() : null);
+		                               ^
+  found   : @Nullable TypeMirror
+  required: @NonNull TypeMirror
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/TypeHelper.java:56: error: [argument.type.incompatible] incompatible argument for parameter type of TypeHelper.getType.
+		return getType(annotation != null ? annotation.getAnnotationType() : null);
+		                                  ^
+  found   : @Nullable TypeMirror
+  required: @NonNull TypeMirror
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/TypeHelper.java:61: error: [return.type.incompatible] incompatible types in return.
+			return null;
+			       ^
+  type of expression: null (NullType)
+  method return type: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/TypeHelper.java:89: error: [return.type.incompatible] incompatible types in return.
+			return null;  // reached java.lang.Object
+			       ^
+  type of expression: null (NullType)
+  method return type: @NonNull Element
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/TypeHelper.java:91: error: [return.type.incompatible] incompatible types in return.
+		return this.types.asElement(superTypes.get(0));
+		                           ^
+  type of expression: @Nullable Element
+  method return type: @NonNull Element
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/SortedProperties.java:88: error: [override.param.invalid] Incompatible parameter type for comments.
+	public void store(OutputStream out, String comments) throws IOException {
+	                                           ^
+  found   : @NonNull String
+  required: @Nullable String
+  Consequence: method in @NonNull SortedProperties
+    @NonNull void store(@NonNull SortedProperties this, @NonNull OutputStream p0, @NonNull String p1) throws @NonNull IOException
+  cannot override method in @NonNull Properties
+    @NonNull void store(@NonNull Properties this, @NonNull OutputStream p0, @Nullable String p1) throws @NonNull IOException
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/SortedProperties.java:100: error: [override.param.invalid] Incompatible parameter type for comments.
+	public void store(Writer writer, String comments) throws IOException {
+	                                        ^
+  found   : @NonNull String
+  required: @Nullable String
+  Consequence: method in @NonNull SortedProperties
+    @NonNull void store(@NonNull SortedProperties this, @NonNull Writer p0, @NonNull String p1) throws @NonNull IOException
+  cannot override method in @NonNull Properties
+    @NonNull void store(@NonNull Properties this, @NonNull Writer p0, @Nullable String p1) throws @NonNull IOException
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/SortedProperties.java:112: error: [override.param.invalid] Incompatible parameter type for comments.
+	public void storeToXML(OutputStream out, String comments) throws IOException {
+	                                                ^
+  found   : @NonNull String
+  required: @Nullable String
+  Consequence: method in @NonNull SortedProperties
+    @NonNull void storeToXML(@NonNull SortedProperties this, @NonNull OutputStream p0, @NonNull String p1) throws @NonNull IOException
+  cannot override method in @NonNull Properties
+    @NonNull void storeToXML(@NonNull Properties this, @NonNull OutputStream p0, @Nullable String p1) throws @NonNull IOException
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/SortedProperties.java:117: error: [override.param.invalid] Incompatible parameter type for comments.
+	public void storeToXML(OutputStream out, String comments, String encoding) throws IOException {
+	                                                ^
+  found   : @NonNull String
+  required: @Nullable String
+  Consequence: method in @NonNull SortedProperties
+    @NonNull void storeToXML(@NonNull SortedProperties this, @NonNull OutputStream p0, @NonNull String p1, @NonNull String p2) throws @NonNull IOException
+  cannot override method in @NonNull Properties
+    @NonNull void storeToXML(@NonNull Properties this, @NonNull OutputStream p0, @Nullable String p1, @NonNull String p2) throws @NonNull IOException
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/MetadataStore.java:51: error: [return.type.incompatible] incompatible types in return.
+			return null;
+			       ^
+  type of expression: null (NullType)
+  method return type: @NonNull CandidateComponentsMetadata
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/IndexedStereotypesProvider.java:97: error: [return.type.incompatible] incompatible types in return.
+			return null;
+			       ^
+  type of expression: null (NullType)
+  method return type: @NonNull Element
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-context-indexer/src/main/java/org/springframework/context/index/processor/IndexedStereotypesProvider.java:103: error: [return.type.incompatible] incompatible types in return.
+		return (!element.toString().startsWith("java.lang") ? element : null);
+		       ^
+  type of expression: @Nullable Element
+  method return type: @NonNull Element
+12 errors
+
+> Task :spring-core:compileJava
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/Label.java:544: error: [assignment.type.incompatible] incompatible types in assignment.
+      basicBlock.nextListElement = null;
+                                   ^
+  found   : null (NullType)
+  required: @NonNull Label
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/Label.java:608: error: [assignment.type.incompatible] incompatible types in assignment.
+      listOfProcessedBlocks.nextListElement = null;
+                                              ^
+  found   : null (NullType)
+  required: @NonNull Label
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:147: error: [assignment.type.incompatible] incompatible types in assignment.
+    this.sourceClassReader = null;
+                             ^
+  found   : null (NullType)
+  required: @NonNull ClassReader
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:985: error: [argument.type.incompatible] incompatible argument for parameter owner of Entry constructor.
+            constantPoolCount++, tag, null, name, descriptor, bootstrapMethodIndex, hashCode));
+                                      ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1007: error: [argument.type.incompatible] incompatible argument for parameter owner of Entry constructor.
+    add(new Entry(index, tag, null, name, descriptor, bootstrapMethodIndex, hashCode));
+                              ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1439: error: [argument.type.incompatible] incompatible argument for parameter owner of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, value, /* data= */ 0);
+                                     ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1439: error: [argument.type.incompatible] incompatible argument for parameter name of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, value, /* data= */ 0);
+                                                       ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1444: error: [argument.type.incompatible] incompatible argument for parameter owner of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, value, data);
+                                     ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1444: error: [argument.type.incompatible] incompatible argument for parameter name of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, value, data);
+                                                       ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1450: error: [argument.type.incompatible] incompatible argument for parameter owner of Symbol constructor.
+      super(index, tag, /* owner= */ null, name, value, /* data= */ 0);
+                                     ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1455: error: [argument.type.incompatible] incompatible argument for parameter owner of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, /* value= */ null, data);
+                                     ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1455: error: [argument.type.incompatible] incompatible argument for parameter name of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, /* value= */ null, data);
+                                                       ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/SymbolTable.java:1455: error: [argument.type.incompatible] incompatible argument for parameter value of Symbol constructor.
+      super(index, tag, /* owner= */ null, /* name= */ null, /* value= */ null, data);
+                                                                          ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:236: error: [argument.type.incompatible] incompatible argument for parameter classReader of ClassWriter constructor.
+    this(null, flags);
+         ^
+  found   : null (NullType)
+  required: @NonNull ClassReader
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:753: error: [assignment.type.incompatible] incompatible types in assignment.
+    firstField = null;
+                 ^
+  found   : null (NullType)
+  required: @NonNull FieldWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:754: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastField = null;
+                ^
+  found   : null (NullType)
+  required: @NonNull FieldWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:755: error: [assignment.type.incompatible] incompatible types in assignment.
+    firstMethod = null;
+                  ^
+  found   : null (NullType)
+  required: @NonNull MethodWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:756: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastMethod = null;
+                 ^
+  found   : null (NullType)
+  required: @NonNull MethodWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:757: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastRuntimeVisibleAnnotation = null;
+                                   ^
+  found   : null (NullType)
+  required: @NonNull AnnotationWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:758: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastRuntimeInvisibleAnnotation = null;
+                                     ^
+  found   : null (NullType)
+  required: @NonNull AnnotationWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:759: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastRuntimeVisibleTypeAnnotation = null;
+                                       ^
+  found   : null (NullType)
+  required: @NonNull AnnotationWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:760: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastRuntimeInvisibleTypeAnnotation = null;
+                                         ^
+  found   : null (NullType)
+  required: @NonNull AnnotationWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:761: error: [assignment.type.incompatible] incompatible types in assignment.
+    moduleWriter = null;
+                   ^
+  found   : null (NullType)
+  required: @NonNull ModuleWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:764: error: [assignment.type.incompatible] incompatible types in assignment.
+    nestMemberClasses = null;
+                        ^
+  found   : null (NullType)
+  required: @NonNull ByteVector
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:766: error: [assignment.type.incompatible] incompatible types in assignment.
+    permittedSubclasses = null;
+                          ^
+  found   : null (NullType)
+  required: @NonNull ByteVector
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:767: error: [assignment.type.incompatible] incompatible types in assignment.
+    firstRecordComponent = null;
+                           ^
+  found   : null (NullType)
+  required: @NonNull RecordComponentWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:768: error: [assignment.type.incompatible] incompatible types in assignment.
+    lastRecordComponent = null;
+                          ^
+  found   : null (NullType)
+  required: @NonNull RecordComponentWriter
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:769: error: [assignment.type.incompatible] incompatible types in assignment.
+    firstAttribute = null;
+                     ^
+  found   : null (NullType)
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:1081: error: [dereference.of.nullable] dereference of possibly-null reference class1
+      } while (!class1.isAssignableFrom(class2));
+                ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassWriter.java:1101: error: [return.type.incompatible] incompatible types in return.
+    return (classLoader != null ? classLoader : getClass().getClassLoader());
+           ^
+  type of expression: @Nullable ClassLoader
+  method return type: @NonNull ClassLoader
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:58: error: [argument.type.incompatible] incompatible argument for parameter classVisitor of ClassVisitor constructor.
+    this(api, null);
+              ^
+  found   : null (NullType)
+  required: @NonNull ClassVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:156: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull ModuleVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:212: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:238: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:326: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull RecordComponentVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:356: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull FieldVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassVisitor.java:384: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull MethodVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:272: error: [assignment.type.incompatible] incompatible types in assignment.
+    constantDynamicValues = hasConstantDynamic ? new ConstantDynamic[constantPoolCount] : null;
+                                                                                          ^
+  found   : null (NullType)
+  required: @NonNull ConstantDynamic @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:276: error: [assignment.type.incompatible] incompatible types in assignment.
+        hasBootstrapMethods ? readBootstrapMethodsAttribute(currentMaxStringLength) : null;
+                                                                                      ^
+  found   : null (NullType)
+  required: @NonNull int @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:301: error: [argument.type.incompatible] incompatible argument for parameter inputStream of ClassReader.readStream.
+            ClassLoader.getSystemResourceAsStream(className.replace('.', '/') + ".class"), true));
+                                                 ^
+  found   : @Nullable InputStream
+  required: @NonNull InputStream
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:563: error: [argument.type.incompatible] incompatible argument for parameter labels of ClassReader.readAttribute.
+                null);
+                ^
+  found   : null (NullType)
+  required: @NonNull Label @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:564: error: [assignment.type.incompatible] incompatible types in assignment.
+        attribute.nextAttribute = attributes;
+                                  ^
+  found   : @Nullable Attribute
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:573: error: [argument.type.incompatible] incompatible argument for parameter signature of ClassVisitor.visit.
+        readInt(cpInfoOffsets[1] - 7), accessFlags, thisClass, signature, superClass, interfaces);
+                                                               ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:578: error: [argument.type.incompatible] incompatible argument for parameter source of ClassVisitor.visitSource.
+      classVisitor.visitSource(sourceFile, sourceDebugExtension);
+                               ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:578: error: [argument.type.incompatible] incompatible argument for parameter debug of ClassVisitor.visitSource.
+      classVisitor.visitSource(sourceFile, sourceDebugExtension);
+                                           ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:584: error: [argument.type.incompatible] incompatible argument for parameter moduleMainClass of ClassReader.readModuleAttributes.
+          classVisitor, context, moduleOffset, modulePackagesOffset, moduleMainClass);
+                                                                     ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:598: error: [argument.type.incompatible] incompatible argument for parameter name of ClassVisitor.visitOuterClass.
+      classVisitor.visitOuterClass(className, name, type);
+                                              ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:598: error: [argument.type.incompatible] incompatible argument for parameter descriptor of ClassVisitor.visitOuterClass.
+      classVisitor.visitOuterClass(className, name, type);
+                                                    ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:689: error: [assignment.type.incompatible] incompatible types in assignment.
+      attributes.nextAttribute = null;
+                                 ^
+  found   : null (NullType)
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:834: error: [argument.type.incompatible] incompatible argument for parameter modules of ModuleVisitor.visitExport.
+      moduleVisitor.visitExport(exports, exportsFlags, exportsTo);
+                                                       ^
+  found   : @NonNull String @Nullable []
+  required: @NonNull String @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:854: error: [argument.type.incompatible] incompatible argument for parameter modules of ModuleVisitor.visitOpen.
+      moduleVisitor.visitOpen(opens, opensFlags, opensTo);
+                                                 ^
+  found   : @NonNull String @Nullable []
+  required: @NonNull String @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:948: error: [argument.type.incompatible] incompatible argument for parameter labels of ClassReader.readAttribute.
+                null);
+                ^
+  found   : null (NullType)
+  required: @NonNull Label @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:949: error: [assignment.type.incompatible] incompatible types in assignment.
+        attribute.nextAttribute = attributes;
+                                  ^
+  found   : @Nullable Attribute
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:956: error: [argument.type.incompatible] incompatible argument for parameter signature of ClassVisitor.visitRecordComponent.
+        classVisitor.visitRecordComponent(name, descriptor, signature);
+                                                            ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1049: error: [assignment.type.incompatible] incompatible types in assignment.
+      attributes.nextAttribute = null;
+                                 ^
+  found   : null (NullType)
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1131: error: [argument.type.incompatible] incompatible argument for parameter labels of ClassReader.readAttribute.
+                null);
+                ^
+  found   : null (NullType)
+  required: @NonNull Label @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1132: error: [assignment.type.incompatible] incompatible types in assignment.
+        attribute.nextAttribute = attributes;
+                                  ^
+  found   : @Nullable Attribute
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1140: error: [argument.type.incompatible] incompatible argument for parameter signature of ClassVisitor.visitField.
+        classVisitor.visitField(accessFlags, name, descriptor, signature, constantValue);
+                                                               ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1140: error: [argument.type.incompatible] incompatible argument for parameter value of ClassVisitor.visitField.
+        classVisitor.visitField(accessFlags, name, descriptor, signature, constantValue);
+                                                                          ^
+  found   : @Nullable Object
+  required: @NonNull Object
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1233: error: [assignment.type.incompatible] incompatible types in assignment.
+      attributes.nextAttribute = null;
+                                 ^
+  found   : null (NullType)
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1347: error: [argument.type.incompatible] incompatible argument for parameter labels of ClassReader.readAttribute.
+                null);
+                ^
+  found   : null (NullType)
+  required: @NonNull Label @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1348: error: [assignment.type.incompatible] incompatible types in assignment.
+        attribute.nextAttribute = attributes;
+                                  ^
+  found   : @Nullable Attribute
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1360: error: [argument.type.incompatible] incompatible argument for parameter signature of ClassVisitor.visitMethod.
+            signatureIndex == 0 ? null : readUtf(signatureIndex, charBuffer),
+                                ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1361: error: [argument.type.incompatible] incompatible argument for parameter exceptions of ClassVisitor.visitMethod.
+            exceptions);
+            ^
+  found   : @NonNull String @Nullable []
+  required: @NonNull String @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1400: error: [argument.type.incompatible] incompatible argument for parameter elementName of ClassReader.readElementValue.
+      readElementValue(annotationVisitor, annotationDefaultOffset, null, charBuffer);
+                                                                   ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1506: error: [assignment.type.incompatible] incompatible types in assignment.
+      attributes.nextAttribute = null;
+                                 ^
+  found   : null (NullType)
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:1973: error: [assignment.type.incompatible] incompatible types in assignment.
+        attribute.nextAttribute = attributes;
+                                  ^
+  found   : @Nullable Attribute
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2022: error: [argument.type.incompatible] incompatible argument for parameter local of MethodVisitor.visitFrame.
+      methodVisitor.visitFrame(Opcodes.F_NEW, maxLocals, null, 0, null);
+                                                         ^
+  found   : null (NullType)
+  required: @NonNull Object @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2022: error: [argument.type.incompatible] incompatible argument for parameter stack of MethodVisitor.visitFrame.
+      methodVisitor.visitFrame(Opcodes.F_NEW, maxLocals, null, 0, null);
+                                                                  ^
+  found   : null (NullType)
+  required: @NonNull Object @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2033: error: [argument.type.incompatible] incompatible argument for parameter typeAnnotationOffsets of ClassReader.getTypeAnnotationBytecodeOffset.
+        getTypeAnnotationBytecodeOffset(visibleTypeAnnotationOffsets, 0);
+                                        ^
+  found   : @NonNull int @Nullable []
+  required: @NonNull int @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2039: error: [argument.type.incompatible] incompatible argument for parameter typeAnnotationOffsets of ClassReader.getTypeAnnotationBytecodeOffset.
+        getTypeAnnotationBytecodeOffset(invisibleTypeAnnotationOffsets, 0);
+                                        ^
+  found   : @NonNull int @Nullable []
+  required: @NonNull int @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2099: error: [argument.type.incompatible] incompatible argument for parameter local of MethodVisitor.visitFrame.
+          methodVisitor.visitFrame(Constants.F_INSERT, 0, null, 0, null);
+                                                          ^
+  found   : null (NullType)
+  required: @NonNull Object @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2099: error: [argument.type.incompatible] incompatible argument for parameter stack of MethodVisitor.visitFrame.
+          methodVisitor.visitFrame(Constants.F_INSERT, 0, null, 0, null);
+                                                                   ^
+  found   : null (NullType)
+  required: @NonNull Object @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2596: error: [argument.type.incompatible] incompatible argument for parameter signature of MethodVisitor.visitLocalVariable.
+            name, descriptor, signature, labels[startPc], labels[startPc + length], index);
+                              ^
+  found   : @Nullable String
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2660: error: [assignment.type.incompatible] incompatible types in assignment.
+      attributes.nextAttribute = null;
+                                 ^
+  found   : null (NullType)
+  required: @NonNull Attribute
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2826: error: [argument.type.incompatible] incompatible argument for parameter typePath of MethodVisitor.visitTryCatchAnnotation.
+                    targetType & 0xFFFFFF00, path, annotationDescriptor, visible),
+                                             ^
+  found   : @Nullable TypePath
+  required: @NonNull TypePath
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2839: error: [argument.type.incompatible] incompatible argument for parameter annotationVisitor of ClassReader.readElementValues.
+                /* annotationVisitor= */ null, currentOffset, /* named= */ true, charBuffer);
+                                         ^
+  found   : null (NullType)
+  required: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:2942: error: [assignment.type.incompatible] incompatible types in assignment.
+        pathLength == 0 ? null : new TypePath(classFileBuffer, currentOffset);
+                          ^
+  found   : null (NullType)
+  required: @NonNull TypePath
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:3019: error: [argument.type.incompatible] incompatible argument for parameter elementName of ClassReader.readElementValue.
+            readElementValue(annotationVisitor, currentOffset, /* elementName= */ null, charBuffer);
+                                                                                  ^
+  found   : null (NullType)
+  required: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:3049: error: [argument.type.incompatible] incompatible argument for parameter annotationVisitor of ClassReader.readElementValues.
+          return readElementValues(null, currentOffset + 3, /* named= */ true, charBuffer);
+                                   ^
+  found   : null (NullType)
+  required: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:3051: error: [argument.type.incompatible] incompatible argument for parameter annotationVisitor of ClassReader.readElementValues.
+          return readElementValues(null, currentOffset + 1, /* named= */ false, charBuffer);
+                                   ^
+  found   : null (NullType)
+  required: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:3555: error: [argument.type.incompatible] incompatible argument for parameter charBuffer of Attribute.read.
+    return new Attribute(type).read(this, offset, length, null, -1, null);
+                                                          ^
+  found   : null (NullType)
+  required: @NonNull char @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:3555: error: [argument.type.incompatible] incompatible argument for parameter labels of Attribute.read.
+    return new Attribute(type).read(this, offset, length, null, -1, null);
+                                                                    ^
+  found   : null (NullType)
+  required: @NonNull Label @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ClassReader.java:3688: error: [return.type.incompatible] incompatible types in return.
+      return null;
+             ^
+  type of expression: null (NullType)
+  method return type: @NonNull String
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/Handle.java:156: error: [override.param.invalid] Incompatible parameter type for object.
+  public boolean equals(final Object object) {
+                                     ^
+  found   : @NonNull Object
+  required: @Nullable Object
+  Consequence: method in @NonNull Handle
+    @NonNull boolean equals(@NonNull Handle this, @NonNull Object p0)
+  cannot override method in @NonNull Object
+    @NonNull boolean equals(@NonNull Object this, @Nullable Object p0)
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/ConstantDynamic.java:146: error: [override.param.invalid] Incompatible parameter type for object.
+  public boolean equals(final Object object) {
+                                     ^
+  found   : @NonNull Object
+  required: @Nullable Object
+  Consequence: method in @NonNull ConstantDynamic
+    @NonNull boolean equals(@NonNull ConstantDynamic this, @NonNull Object p0)
+  cannot override method in @NonNull Object
+    @NonNull boolean equals(@NonNull Object this, @Nullable Object p0)
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/Attribute.java:310: error: [argument.type.incompatible] incompatible argument for parameter code of Attribute.computeAttributesSize.
+    return computeAttributesSize(symbolTable, code, codeLength, maxStack, maxLocals);
+                                              ^
+  found   : @NonNull byte @Nullable []
+  required: @NonNull byte @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/Attribute.java:398: error: [argument.type.incompatible] incompatible argument for parameter code of Attribute.putAttributes.
+    putAttributes(symbolTable, code, codeLength, maxStack, maxLocals, output);
+                               ^
+  found   : @NonNull byte @Nullable []
+  required: @NonNull byte @NonNull []
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:72: error: [argument.type.incompatible] incompatible argument for parameter methodVisitor of MethodVisitor constructor.
+    this(api, null);
+              ^
+  found   : null (NullType)
+  required: @NonNull MethodVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:140: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:155: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:182: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:224: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:646: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:695: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/MethodVisitor.java:759: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/AnnotationVisitor.java:59: error: [argument.type.incompatible] incompatible argument for parameter annotationVisitor of AnnotationVisitor constructor.
+    this(api, null);
+              ^
+  found   : null (NullType)
+  required: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/AnnotationVisitor.java:139: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/asm/AnnotationVisitor.java:157: error: [return.type.incompatible] incompatible types in return.
+    return null;
+           ^
+  type of expression: null (NullType)
+  method return type: @NonNull AnnotationVisitor
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/MethodParameter.java:887: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+						anns = merged.toArray(EMPTY_ANNOTATION_ARRAY);
+						                     ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/ConcurrentReferenceHashMap.java:518: warning: [cast.unsafe] cast from "@Nullable Object" to "K[ extends @NonNull Object super @NonNull Void]" cannot be statically verified
+					Entry<K, V> newEntry = new Entry<>((K) key, value);
+					                                   ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/ReflectionUtils.java:392: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return methods.toArray(EMPTY_METHOD_ARRAY);
+		                      ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/ReflectionUtils.java:442: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return methods.toArray(EMPTY_METHOD_ARRAY);
+		                      ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/io/support/SpringFactoriesLoader.java:581: warning: [cast.unsafe] cast from "@Nullable Object" to "T[ extends @NonNull Object super @NonNull Void]" cannot be statically verified
+					return (T) function.apply(type);
+					       ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/io/support/PathMatchingResourcePatternResolver.java:375: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+			return resources.toArray(EMPTY_RESOURCE_ARRAY);
+			                        ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/io/support/PathMatchingResourcePatternResolver.java:419: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return result.toArray(EMPTY_RESOURCE_ARRAY);
+		                     ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/io/support/PathMatchingResourcePatternResolver.java:744: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return result.toArray(EMPTY_RESOURCE_ARRAY);
+		                     ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/annotation/AnnotationTypeMapping.java:580: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+				this.mirrorSets = unique.toArray(EMPTY_MIRROR_SETS);
+				                                ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/PlaceholderParser.java:534: warning: [type.anno.before.modifier] write type annotation @Nullable immediately before type, after modifiers [private]
+		private String resolveRecursively(PartResolutionContext resolutionContext) {
+		               ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/type/classreading/MergedAnnotationReadingVisitor.java:180: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+			this.consumer.accept(this.elements.toArray(array));
+			                                          ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/core/convert/support/GenericConversionService.java:165: warning: [cast.unsafe] cast from "@Nullable Object" to "T[ extends @NonNull Object super @NonNull Void]" cannot be statically verified
+		return (T) convert(source, TypeDescriptor.forObject(source), TypeDescriptor.valueOf(targetType));
+		       ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/SerializationUtils.java:106: warning: [cast.unsafe] cast from "@Nullable Object" to "T[ extends @NonNull Serializable super @NonNull Void]" cannot be statically verified
+		return (T) result;
+		       ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/StringUtils.java:1004: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return (!CollectionUtils.isEmpty(collection) ? collection.toArray(EMPTY_STRING_ARRAY) : EMPTY_STRING_ARRAY);
+		                                                                 ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/ClassUtils.java:756: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return (!CollectionUtils.isEmpty(collection) ? collection.toArray(EMPTY_CLASS_ARRAY) : EMPTY_CLASS_ARRAY);
+		                                                                 ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/CollectionUtils.java:192: warning: [cast.unsafe] cast from "@Nullable Object" to "V[ extends @NonNull Object super @NonNull Void]" cannot be statically verified
+				map.put((K) key, (V) value);
+				                 ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/CollectionUtils.java:324: warning: [cast.unsafe] cast from "@Nullable Object" to "T[ extends @NonNull Object super @NonNull Void]" cannot be statically verified
+				value = (T) element;
+				        ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/CollectionUtils.java:493: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return elements.toArray(array);
+		                       ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/AutoPopulatingList.java:231: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+		return this.backingList.toArray(a);
+		                               ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/concurrent/FutureAdapter.java:97: warning: [cast.unsafe] cast from "@Nullable Object" to "T[ extends @NonNull Object super @NonNull Void]" cannot be statically verified
+				case SUCCESS -> (T) this.result;
+				                ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/UnmodifiableMultiValueMap.java:323: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+			T[] result = this.delegate.toArray(a);
+			                                  ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/util/UnmodifiableMultiValueMap.java:555: warning: [toarray.nullable.elements.not.newarray] call of toArray on collection of non-null elements yields an array of possibly-null elements; omit the argument to toArray or make it an explicit array constructor
+			T[] result = this.delegate.toArray(a);
+			                                  ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/cglib/core/EmitUtils.java:746: warning: [toarray.nullable.elements.mismatched.size] call of toArray on collection of non-null elements yields an array of possibly-null elements; cannot determine that the argument array has the same size as the receiver collection
+                String[] names = (String[])buckets.keySet().toArray(new String[buckets.size()]);
+                                                                   ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/cglib/core/EmitUtils.java:842: warning: [toarray.nullable.elements.mismatched.size] call of toArray on collection of non-null elements yields an array of possibly-null elements; cannot determine that the argument array has the same size as the receiver collection
+                String[] names = (String[])buckets.keySet().toArray(new String[buckets.size()]);
+                                                                   ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/cglib/beans/BeanMapEmitter.java:102: warning: [toarray.nullable.elements.mismatched.size] call of toArray on collection of non-null elements yields an array of possibly-null elements; cannot determine that the argument array has the same size as the receiver collection
+        return (String[])propertyMap.keySet().toArray(new String[propertyMap.size()]);
+                                                     ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/cglib/beans/BeanGenerator.java:114: warning: [toarray.nullable.elements.mismatched.size] call of toArray on collection of non-null elements yields an array of possibly-null elements; cannot determine that the argument array has the same size as the receiver collection
+		String[] names = (String[])props.keySet().toArray(new String[size]);
+		                                                 ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/cglib/transform/impl/AddPropertyTransformer.java:32: warning: [toarray.nullable.elements.mismatched.size] call of toArray on collection of non-null elements yields an array of possibly-null elements; cannot determine that the argument array has the same size as the receiver collection
+        names = (String[])props.keySet().toArray(new String[size]);
+                                                ^
+/Users/alex/Documents/code/spring-projects/spring-framework/spring-core/src/main/java/org/springframework/cglib/transform/impl/FieldProviderTransformer.java:94: warning: [toarray.nullable.elements.mismatched.size] call of toArray on collection of non-null elements yields an array of possibly-null elements; cannot determine that the argument array has the same size as the receiver collection
+        final String[] names = (String[])fields.keySet().toArray(new String[fields.size()]);
+                                                                ^
+100 errors
+28 warnings
+
+> Task :spring-core:compileJava FAILED
+
+[Incubating] Problems report is available at: file:///Users/alex/Documents/code/spring-projects/spring-framework/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':spring-context-indexer:compileJava'.
+> Compilation failed; see the compiler output below.
+  Note: The Checker Framework is tested with JDK 8, 11, 17, and 21. You are using version 24.
+  12 errors
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':spring-core:compileJava'.
+> Compilation failed; see the compiler output below.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 47s
+88 actionable tasks: 71 executed, 4 from cache, 13 up-to-date
