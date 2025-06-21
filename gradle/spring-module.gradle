@@ -7,12 +7,34 @@ apply plugin: 'org.springframework.build.optional-dependencies'
 apply plugin: 'me.champeau.jmh'
 apply from: "$rootDir/gradle/publications.gradle"
 apply plugin: "io.spring.nullability"
+apply plugin: "org.checkerframework"
 
+ext {
+    versions = [
+        eisopVersion: '3.49.3-eisop1',
+    ]
+}
+
+checkerFramework {
+    checkers = [
+        'org.checkerframework.checker.nullness.NullnessChecker',
+    ]
+    extraJavacArgs = ['-Aversion',
+					  '-AsuppressWarnings=initialization',
+					  '-AassumeKeyFor',
+				    ]
+}
+
+def cfHome = "${projectDir}/../../.."
 dependencies {
 	jmh 'org.openjdk.jmh:jmh-core:1.37'
 	jmh 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
 	jmh 'org.openjdk.jmh:jmh-generator-bytecode:1.37'
 	jmh 'net.sf.jopt-simple:jopt-simple'
+	compileOnly "io.github.eisop:checker-qual:${versions.eisopVersion}"
+	testCompileOnly "io.github.eisop:checker-qual:${versions.eisopVersion}"
+	checkerFramework "io.github.eisop:checker-qual:${versions.eisopVersion}"
+	checkerFramework "io.github.eisop:checker:${versions.eisopVersion}"
 }
 
 pluginManager.withPlugin("kotlin") {
