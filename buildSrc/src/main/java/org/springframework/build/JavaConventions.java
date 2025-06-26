@@ -58,7 +58,7 @@ public class JavaConventions {
 				"-Xlint:serial", "-Xlint:cast", "-Xlint:classfile", "-Xlint:dep-ann",
 				"-Xlint:divzero", "-Xlint:empty", "-Xlint:finally", "-Xlint:overrides",
 				"-Xlint:path", "-Xlint:-processing", "-Xlint:static", "-Xlint:try", "-Xlint:-options",
-				"-parameters"
+				"-parameters", "-Xmaxerrs", "999"
 		);
 		COMPILER_ARGS = new ArrayList<>();
 		COMPILER_ARGS.addAll(commonCompilerArgs);
