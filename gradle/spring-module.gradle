@@ -11,7 +11,7 @@ apply plugin: "org.checkerframework"
 
 ext {
     versions = [
-        eisopVersion: '3.49.3-eisop1',
+        eisopVersion: '3.49.5-eisop1-SNAPSHOT',
     ]
 }
 
@@ -22,6 +22,7 @@ checkerFramework {
     extraJavacArgs = ['-Aversion',
 					  '-AsuppressWarnings=initialization',
 					  '-AassumeKeyFor',
+					  '-AonlyAnnotatedFor',
 				    ]
 }
 
